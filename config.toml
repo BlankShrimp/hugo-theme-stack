@@ -1,0 +1,122 @@
+[module.hugoVersion]
+extended = true
+min = "0.87.0"
+
+[params]
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+
+[params.footer]
+# since = 2020
+# customText = ""
+
+[params.dateFormat]
+published = "Jan 02, 2006"
+lastUpdated = "Jan 02, 2006 15:04 MST"
+
+[params.sidebar]
+compact = false
+subtitle = "谢谢空白虾虾的小站站"
+
+[params.sidebar.avatar]
+enabled = true
+local = true
+src = "img/head.jpg"
+
+
+# menus ---------------
+# [[menu.main]]
+# identifier = "home"
+# name = "Home"
+# url = "/"
+# [menu.main.params]
+# icon = "home"
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/BlankShrimp"
+
+[menu.social.params]
+icon = "brand-github"
+
+[[menu.social]]
+identifier = "weibo"
+name = "Weibo"
+url = "https://weibo.com/u/6285519744"
+
+[menu.social.params]
+icon = "brand-weibo"
+
+[[menu.social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com/Rabbiscuits"
+
+[menu.social.params]
+icon = "brand-twitter"
+
+[[menu.social]]
+identifier = "xiv"
+name = "FFXIV"
+url = "https://na.finalfantasyxiv.com/lodestone/character/35047015"
+
+[menu.social.params]
+icon = "brand-xiv"
+
+
+# articles ---------------
+[params.article]
+math = true
+toc = true
+readingTime = true
+
+[params.article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+[params.comments]
+enabled = false
+
+
+# Widgets ---------------
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+
+[params.widgets.homepage.params]
+limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+
+[params.widgets.homepage.params]
+limit = 10
+
+
+# miscs ---------------
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
