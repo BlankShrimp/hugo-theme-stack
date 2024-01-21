@@ -65,6 +65,14 @@ url = "https://na.finalfantasyxiv.com/lodestone/character/35047015"
 [menu.social.params]
 icon = "brand-xiv"
 
+[[menu.social]]
+identifier = "xivcn"
+name = "FFXIV-cn"
+url = "https://ff14risingstones.web.sdo.com/pc/index.html#/me/info?uuid=10025075"
+
+[menu.social.params]
+icon = "brand-xiv-cn"
+
 
 # articles ---------------
 [params.article]
